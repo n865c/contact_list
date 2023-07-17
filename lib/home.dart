@@ -18,7 +18,10 @@ class _MyhomeState extends State<Myhome> {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 183, 17, 225),
         centerTitle: true,
-        title: const Text("Contacts List"),
+        title: const Text(
+          "Contacts List",
+          style: TextStyle(fontSize: 30),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
